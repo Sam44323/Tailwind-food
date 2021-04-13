@@ -1,10 +1,10 @@
 {
   "name": "tailwind-food",
   "version": "1.0.0",
-  "description": "Food app using tailwind for styling",
+  "description": "Food app using tailwind for styling ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "npx tailwindcss-cli@latest build ./src/styles.css -o ./public/styles.css"
   },
   "keywords": [],
   "author": "Sam44323",
