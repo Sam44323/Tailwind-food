@@ -10,5 +10,6 @@
 
 - HTML
 - TailwindCSS
+- Heroicons
 
 ---
