@@ -630,6 +630,17 @@ video {
   }
 }
 
+.buttons {
+  border-radius: 9999px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  padding: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
 .space-y-0 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
