@@ -11,5 +11,6 @@
 - HTML
 - TailwindCSS
 - Heroicons
+- Javascript
 
 ---
