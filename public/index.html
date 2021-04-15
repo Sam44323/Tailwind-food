@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind Shop</title>
     <link rel="stylesheet" href="/public/styles.css" />
+    <script src="scripts.js" defer></script>
   </head>
   <body class="text-gray-600 font-body">
     <div class="grid-container gap-0">
@@ -17,7 +18,10 @@
             <h1 class="font-bold uppercase p-4 border-b border-gray-100">
               <a href="/">Tailwind Shop</a>
             </h1>
-            <div class="px-4 cursor-pointer md:hidden">
+            <div
+              class="px-4 cursor-pointer md:hidden hover:text-primary"
+              id="menu-button"
+            >
               <svg
                 class="w-6"
                 xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +40,7 @@
             </div>
           </div>
 
-          <ul class="text-sm mt-4 hidden md:block">
+          <ul class="text-sm mt-4 hidden md:block" id="menu">
             <li class="text-gray-700 font-bold">
               <a href="#" class="pr-1 md:border-r-4 md:border-primary"
                 ><span class="md:mr-1">Home</span>
