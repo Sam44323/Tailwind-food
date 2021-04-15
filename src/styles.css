@@ -27,3 +27,9 @@
     @apply rounded-full p-4 uppercase text-xs font-bold cursor-pointer tracking-wider;
   }
 }
+
+@layer components {
+  .auth {
+    @apply text-primary ml-2 buttons border-primary md:border-2 hover:bg-primary hover:text-white transition ease-out duration-500;
+  }
+}
